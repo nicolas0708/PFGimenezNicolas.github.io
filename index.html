@@ -1,58 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <title>Peluqueria unisex</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Años de experiencia en el rubro del tejido y los amigurumis, los productos de mejor calidad y precio">
+  <meta name="keywords" content="Amigurumis, tejido, hilos, muñecos, personalizado, patrones">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+ 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fce55a0c47.js" crossorigin="anonymous"></script>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  
+  <link rel="icon" href="./img/logo.jpg">
+
+
+  <link rel="stylesheet" href="./sass/main.css" />
+
+  <title>Miyico Amigurumis</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid"> 
+        <div class="container-img">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./img/logo.jpg" alt="logo" width="80" height="80">
+          </a>
         </div>
-      </nav>
-      
-     <!--  
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/quienessomos.html">¿QUIENES SOMOS?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/trabajos.html">TRABAJOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="./img/3.jpg" class="d-block w-80" alt="imagen slider web">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Trabajos Personalizados</h5>
+              <p>Hacemos realidad tu sueño, todo personalizado y de la mejor calidad </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/11.jpg" class="d-block w-80" alt="imagen slider diseño">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Venta de Patrones oficiales</h5>
+              <p>Patrones realizados por nosotros o por otras tejedoras de todo el mundo</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/9.jpg" class="d-block w-80" alt="imagen slider video">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Stock</h5>
+              <p>Revisa nuestros trabajos, y si lo tenemos en stock, llevatelo sin problema</p>
             </div>
           </div>
         </div>
-      </nav>
- -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-      
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="features-section">
+      <div class="features-section__row">
+        <div class="features-section__row__items">
+         
+          <div class="features-section__row__text">
+            <h2>Trabajos Personalizados</h2>
+            <p>Hacemos realidad tu sueño, todo personalizado y de la mejor calidad.</p>
+          </div>
+        </div>
+        <div class="features-section__row__items">
+          
+          <div>
+            <h2>Venta de Patrones</h2>
+            <p>Patrones realizados por nosotros o por otras tejedoras de todo el mundo.</p>
+          </div>
+        </div>
+        <div class="features-section__row__items">
+          
+          <div>
+            <h2>Stock</h2>
+            <p>Revisa nuestros trabajos, y si lo tenemos en stock, llevatelo sin problema.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container about-info">
+      <div class="row">
+        <div class="col d-flex justify-content-end about__image">
+          <img class="" src="./img/logobien.jpg" alt="imagen" />
+        </div>
+        <div class="col">
+          <div class="about-info-container">
+            <h3>¡Hola! ♡ </h3>
+            <h2>soy MiyicoAmigurumis</h2>
+            <p>
+              Somos una empresa dedicada al tejido de Amigurumis, mantas de apego, juguetes, ropa y mucho mas.
+            </p>
+          </div>
+          <div class="about-contact-info">
+            <img src="./img/2.jpg" alt="icono de seccion de contacto" />
+            <div>
+              <h3>Siempre mejorando</h3>
+              <p>
+                Soy una tejedora con años de experiencia en el rubro, siempre aprendiendo y actualiazandome con los ultimos metodos y las mejores herramientas de tejido del mercado. Nuestra calidad es 100% asegurada.
+              </p>
+              <div class="about-social">
+                <a href="https://www.facebook.com/miyico.cm" target="_blank"><img src="./img/bxl-facebook.svg" alt=""></a>
+                <a href="https://instagram.com/miyico.amigurumi?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="./img/bxl-instagram.svg" alt=""></a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service-section">
+      <div class="service-offer-btns">
+        <a class="btns" href="./pages/trabajos.html">
+          <button>Cositas Lindas</button>
+        </a>
+        <a class="btns-primary" href="./pages/contacto.html">
+          <button>Contactame</button>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <a href="./index.html">
+        <img src="./img/logo.jpg" alt="imagen de logo" />
+      </a>
+    </div>
+    <nav class="footer-nav__nav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/quienessomos.html">¿QUIENES SOMOS?</a></li>
+        <li><a href="./pages/servicios.html">SERVICIOS</a></li>
+        <li><a href="./pages/trabajos.html">TRABAJOS</a></li>
+        <li><a href="./pages/contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <div class="footer-copy">
+      <p>© Copyright - 2023. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
